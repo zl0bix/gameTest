@@ -8,10 +8,18 @@ namespace gameTest
 {
     internal class Data
     {
-        public static int hpPlaer = 100;
-        public static int manaPlaer = 4;
-        public static int hpEnemy = 1000;//16dmg
-        public static bool gameOverPlaerWin = false;
-        public static bool gameOverEnemyWin = false;
+        public static int hpPlaer;
+        public static int manaPlaer;
+        public static int hpEnemy;//16dmg
+        public static bool gameOverPlaerWin;
+        public static bool gameOverEnemyWin;
+        static Data()
+        {
+            hpPlaer = 100;
+            manaPlaer = 4;
+            hpEnemy = 1000;
+            gameOverPlaerWin = false;
+            gameOverEnemyWin = false;
+        }
     }
 }

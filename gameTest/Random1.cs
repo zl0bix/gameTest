@@ -15,7 +15,6 @@ namespace gameTest
 
             Random rnd = new Random();
 
-
             if (num == 90)
             {
                 tmp = rnd.Next(1, 101);
@@ -42,8 +41,6 @@ namespace gameTest
             }
             else
             return false;
-
-        }
-        
+        }        
     }
 }
